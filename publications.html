@@ -1,0 +1,65 @@
+---
+layout: default
+active: publications
+opengraph:
+  title: Sheng Dai's publications
+---
+
+<div class="container">
+  <section>
+
+    <p> <a href="https://scholar.google.com/citations?user={{ site.data.scholar.id }}">Google Scholar</a>:
+      {{ site.data.scholar.citations }} Citations;
+      h-index: {{ site.data.scholar.h_index }};
+      i10-index: {{ site.data.scholar.i10_index }}
+    </p>
+
+    <h2>Articles</h2>
+    <ol reversed start="8">
+    {% for paper in site.data.papers.article %}
+      <li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}.</a> {% else %} {{ paper.title }}. {% endif %}
+          {% if paper.authors %} {{ paper.authors }}. {% endif %}
+          {% if paper.publisher %} <span style="font-style: italic">{{ paper.publisher }},</span> {% endif %}
+          {% if paper.year %} {{ paper.year }}. {% endif %}
+          {% if paper.slideslink %}<a href="{{ paper.slideslink }}">{{ paper.slides }}</a> {% else %} {{ paper.slides }} {% endif %}</li>
+    {% endfor %}
+    </ol>
+  </section>
+  <section>
+    <h2>Preprints</h2>
+    <ol reversed start="6">
+    {% for paper in site.data.papers.preprint %}
+      <li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}.</a> {% else %} {{ paper.title }}. {% endif %}
+          {% if paper.authors %} {{ paper.authors }}. {% endif %}
+          {% if paper.publisher %} <span style="font-style: italic">{{ paper.publisher }},</span> {% endif %}
+          {% if paper.year %} {{ paper.year }}. {% endif %}
+          {% if paper.slideslink %}<a href="{{ paper.slideslink }}">{{ paper.slides }}</a> {% else %} {{ paper.slides }} {% endif %}</li>
+    {% endfor %}
+    </ol>
+  </section>
+  <section>
+    <h2>Technical Reports</h2>
+    <ol reversed start="2">
+    {% for paper in site.data.papers.report %}
+      <li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}.</a> {% else %} {{ paper.title }}. {% endif %}
+          {% if paper.authors %} {{ paper.authors }}. {% endif %}
+          {% if paper.publisher %} <span style="font-style: italic">{{ paper.publisher }},</span> {% endif %}
+          {% if paper.year %} {{ paper.year }}. {% endif %}
+          {% if paper.slideslink %}<a href="{{ paper.slideslink }}">{{ paper.slides }}</a> {% else %} {{ paper.slides }} {% endif %}</li>
+    {% endfor %}
+    </ol>
+  </section>
+  <section>
+    <h2>Thesis</h2>
+    <ol reversed start="1">
+    {% for paper in site.data.papers.thesis %}
+      <li>{% if paper.link %}<a href="{{ paper.link }}">{{ paper.title }}.</a> {% else %} {{ paper.title }}. {% endif %}
+          {% if paper.authors %} {{ paper.authors }}. {% endif %}
+          {% if paper.publisher %} <span style="font-style: italic">{{ paper.publisher }},</span> {% endif %}
+          {% if paper.year %} {{ paper.year }}. {% endif %}
+          {% if paper.slideslink %}<a href="{{ paper.slideslink }}">{{ paper.slides }}</a> {% else %} {{ paper.slides }} {% endif %}</li>
+    {% endfor %}
+    </ol>
+  </section>
+
+</div>

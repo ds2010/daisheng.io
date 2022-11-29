@@ -1,0 +1,111 @@
+article:
+  - title: "Variable selection in convex quantile regression: L1-norm or L0-norm regularization?"
+    link: https://www.sciencedirect.com/science/article/pii/S0377221722004313
+    authors: Sheng Dai
+    publisher: European Journal of Operational Research
+    year: May 2022
+
+  - title: "Production quota policy in China: Implications for sustainable supply capacity of critical minerals"
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0301420721000635
+    authors: Jiahui Yi, Sheng Dai, Jinhua Cheng, Qiaosheng Wu, Kailei Liu
+    publisher: Resources Policy
+    year: 2021
+
+  - title: "Forward-looking assessment of the GHG abatement cost: Application to China"
+    link: https://www.sciencedirect.com/science/article/pii/S0140988320300979
+    authors: Sheng Dai, Timo Kuosmanen, Xun Zhou
+    publisher: Energy Economics
+    year: 2020
+    slides: "[Slides]"
+    slideslink: https://www.researchgate.net/publication/342164669_Forward-looking_assessment_of_the_GHG_abatement_cost_Application_to_China
+
+  - title: "How much climate policy has cost for OECD countries?"
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0305750X19303298
+    authors: Timo Kuosmanen, Xun Zhou, Sheng Dai
+    publisher: World Development
+    year: 2020
+    slides: "[Slides]"
+    slideslink: https://www.researchgate.net/publication/337486948_How_much_climate_policy_has_cost_for_OECD_countries
+   
+  - title: "Can low-carbon city construction facilitate green growth? Evidence from China's pilot low-carbon city initiative"
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0959652619318633
+    authors: Jinhua Cheng, Jiahui Yi, Sheng Dai, Yan Xiong
+    publisher: Journal of Cleaner Production
+    year: 2019
+
+  - title: "Geography, ethnicity and regional inequality in Guangxi Zhuang autonomous region, China"
+    link: https://link.springer.com/article/10.1007/s12061-017-9229-3
+    authors: Qiwen Dai, Xinyue Ye, Yehua Dennis Wei, Yuemin Ning, Sheng Dai
+    publisher: Applied Spatial Analysis and Policy
+    year: 2018
+
+  - title: "Regional eco-innovation in China: An analysis of eco-innovation levels and influencing factors"
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0959652617305796
+    authors: Jun Chen, Jinhua Cheng, Sheng Dai
+    publisher: Journal of Cleaner Production
+    year: 2017
+  
+  - title: "Spatiotemporal heterogeneity of industrial pollution in China"
+    link: https://www.sciencedirect.com/science/article/abs/pii/S1043951X16300724
+    authors: Jinhua Cheng, Sheng Dai, Xinyue Ye
+    publisher: China Economic Review
+    year: 2016
+
+preprint:
+  - title: "Convex Support Vector Regression"
+    link: https://arxiv.org/abs/2209.12538
+    authors: Zhiqiang Liao, Sheng Dai, Timo Kuosmanen
+    publisher: arXiv:2209.12538
+    year: September 2022    
+
+  - title: "Partial frontiers are not quantiles"
+    link: https://arxiv.org/abs/2205.11885
+    authors: Sheng Dai, Timo Kuosmanen, Xun Zhou
+    publisher: arXiv:2205.11885
+    year: May 2022    
+
+  - title: "Non-crossing convex quantile regression"
+    link: https://arxiv.org/abs/2204.01371
+    authors: Sheng Dai, Timo Kuosmanen, Xun Zhou
+    publisher: arXiv:2204.01371
+    year: April 2022    
+
+  - title: "pyStoNED: A Python package for convex regression and frontier estimation"
+    link: https://arxiv.org/abs/2109.12962
+    authors: Sheng Dai, Yu-Hsueh Fang, Chia-Yen Lee, Timo Kuosmanen
+    publisher: arXiv:2109.12962
+    year: Sep 2021    
+    slides: "[Slides]"
+    slideslink: https://www.researchgate.net/publication/354777651_pyStoNED_A_Python_package_for_convex_regression_and_frontier_estimation
+
+  - title: "Performance of English NHS hospitals during the first and second waves of the COVID-19 pandemic"
+    link: https://www.researchgate.net/publication/349075148
+    authors: Timo Kuosmanen, Aaron Tan, Sheng Dai
+    publisher: ResearchGate
+    year: Feb 2021
+
+  - title: "Production function of death: Performance assessment of the English NHS hospitals during the first wave of the COVID-19 pandemic"
+    link: https://www.researchgate.net/publication/345808278
+    authors: Timo Kuosmanen, Aaron Tan, Sheng Dai
+    publisher: ResearchGate
+    year: Dec 2020
+
+report:
+  - title: "Kohtuullinen muuttuva kustannus sähkön jakeluverkkoyhtiöiden valvontamallissa: Ehdotus tehostamiskannustimen kehittämiseksi 6. ja 7. valvontajaksoilla vuosina 2024--2031"
+    link: https://www.researchgate.net/publication/363771054
+    authors: Timo Kuosmanen, Natalia Kuosmanen, Sheng Dai
+    publisher: Energiavirasto, Finland
+    year: September 2022    
+
+  - title: "Misallocation of labor and capital in Finland's business sector"
+    link: http://urn.fi/URN:ISBN:978-952-383-212-1
+    authors: Sheng Dai, Natalia Kuosmanen, Tero Kuusi, Timo Kuosmanen (Editor), Juuso Liesiö, Terhi Maczulskij
+    publisher: Prime Minister's Office of Finland
+    year: May 2022  
+
+thesis:
+  - title: "Essays on Convex Regression and Frontier Estimation"
+    link: http://urn.fi/URN:ISBN:978-952-64-0900-9
+    authors: Sheng Dai
+    publisher: Aalto University
+    year: September 2022    
