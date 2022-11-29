@@ -7,3 +7,4 @@ node_modules
 .byebug_history
 .*.swp
 .jekyll-cache
+*.docx
